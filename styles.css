@@ -1,12 +1,15 @@
 * {
     font-family: 'Arial Narrow', Arial, sans-serif;
     font-weight: normal;
+    box-sizing: border-box;
+    margin: 0;
 }
 
 h1 {
     text-align: center;
     background-color: rgb(53, 34, 22);
     color: white;
+    padding: 5px;
 }
 
 h1,
@@ -23,4 +26,33 @@ body {
 img {
     height: auto;
     width: 100%;
+}
+
+/* Homepage styles */
+
+li,
+p,
+h2,
+h3 {
+    margin: 5px;
+}
+
+
+
+.homepage-body {
+    background-color: rgb(24, 53, 71);
+}
+
+.references {
+    width: 50%;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+.index-li {
+    margin: 40px auto;
+    display: block;
+    width: 150px;
+    font-size: 20px;
 }
